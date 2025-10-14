@@ -84,5 +84,14 @@ const config = {
   GOOGLE_ANALYTICS_CODE: process.env.REACT_APP_GOOGLE_ANALYTICS_CODE,
   SENTRY_URI: process.env.REACT_APP_SENTRY_URI,
 };
+const config = {
+  ROMS: {
+    // ...
+    myrom: {
+      name: "My Rom",
+      description: <span>This is my own homebrew NES rom</span>,
+      url: "http://localhost:3000/roms/myrom/myrom.nes"
+    }
+  }
 
 export default config;
